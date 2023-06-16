@@ -1,0 +1,16 @@
+.Title {
+  background-color: inherit;
+  /* color: inherit; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 7px 0 7px 0;
+}
+
+.title__H1 {
+  text-decoration: wavy underline;
+  text-underline-position: below;
+  text-underline-offset: 0.3em;
+  color: coral;
+}

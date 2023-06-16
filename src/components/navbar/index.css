@@ -1,0 +1,32 @@
+.Navbar {
+  background-color: black;
+  color: coral;
+  display: flex;
+  width: 100%;
+  margin: 7px 0 7px 0;
+}
+
+.navbar__wrapperTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar__title {
+  display: flex;
+}
+
+.Navbar h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.navbar__wrapperUl {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}

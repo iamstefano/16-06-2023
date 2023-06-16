@@ -1,0 +1,39 @@
+.TodoList {
+  margin: 20px;
+  overflow-y: scroll;
+  height: 700px;
+  width: 440px;
+}
+
+.TodoList__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoList__info h4 {
+  margin: 4px 0;
+}
+
+.TodoList hr {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.TodoList Button {
+  background-color: #f89571;
+  padding: 8px;
+}
+
+.TodoList Button:hover {
+  background-color: #f58157;
+  transition: all 0.35s;
+}
+
+.TodoList__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.TodoList__buttons Button:last-child {
+  background-color: #cf4040b0;
+}
