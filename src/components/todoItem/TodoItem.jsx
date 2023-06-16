@@ -9,6 +9,7 @@ const TodoItem = ({ data, emoji }) => {
   const onHandleToggle = () => {
     setisCompleted(!isCompleted);
   };
+  const onHandleToggle2 = () => {}; //doppio click per eliminare elemento
 
   return (
     <div className="TodoItem">
@@ -18,6 +19,7 @@ const TodoItem = ({ data, emoji }) => {
         className={`TodoItem__p ${isCompleted ? "completed" : ""}`}
         id={data.id}
         onClick={onHandleToggle}
+        onDoubleClick={onHandleToggle2}
         style={{ textDecoration: `${isCompleted ? "line-through" : ""}` }}
       >
         {data.title}

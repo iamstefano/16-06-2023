@@ -30,6 +30,7 @@
 
 .TodoItem__p {
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .completed {
